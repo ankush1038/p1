@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <Greet myClick ={clickHandler1} value='code' data={10}></Greet>
       <Greet myClick = {clickHandler2} value='Quotient'></Greet>
+      <GreetClass />
       {/*<Greet /> */}
 
     </div>

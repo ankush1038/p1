@@ -14,7 +14,7 @@ export default class GreetClass extends React.Component<GreetProps>{
         return(
             <div> 
                 Welcome to class {this.props.value}
-                <button onClick={this.clickHandler}>Clicked</button>
+                <p><button onClick={this.clickHandler}>Click me</button></p>
             </div>
         )
     }
