@@ -5,6 +5,7 @@ import Greet from './Greet'
 import GreetClass from './GreetClass'
 import TextChange from './TextChange'
 import Home from './Components/Home';
+import Lifecycle from './Lifecycle';
 
 const clickHandler1 = () =>{
   alert("Handler1 clicked");
@@ -22,7 +23,8 @@ function App() {
       {/*<Greet /> */}
 
       {/* <TextChange /> */}
-      <Home />
+      {/* <Home /> */}
+      <Lifecycle />
 
     </div>
   );
