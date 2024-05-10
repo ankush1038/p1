@@ -6,6 +6,7 @@ import GreetClass from './GreetClass'
 import TextChange from './TextChange'
 import Home from './Components/Home';
 import Lifecycle from './Lifecycle';
+import CTimer from './Components/CTimer';
 
 const clickHandler1 = () =>{
   alert("Handler1 clicked");
@@ -24,7 +25,9 @@ function App() {
 
       {/* <TextChange /> */}
       {/* <Home /> */}
-      <Lifecycle />
+      {/* <Lifecycle />
+       */}
+      <CTimer />
 
     </div>
   );
