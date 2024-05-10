@@ -5,7 +5,7 @@ const CTimer = () =>{
     useEffect(()=>{
         console.log("Mounted");
         
-    },[])
+    },)
     return (
         <>
        Ctimer Called :{data.toString()} 
